@@ -1,0 +1,28 @@
+% Names of input root files
+{
+  /home/belle2/ssana/signal_mc/topo_my_signal.root
+}
+
+% TTree name
+{
+  tree
+}
+
+% Component analysis --- decay trees
+{
+  Y     1000
+}
+
+# In 'Ys' and 'Yg', 's' and 'g' are the initials of the words 'strict' and 'generalized', respectively.
+# While strict FSR photons are marked beforehand with a special PDG code (-22 by default),
+# generalized FSR photons are defined as photons who have at least one
+# e+, e-, mu+, mu-, pi+, pi-, K+, K-, p, or anti-p sister.
+% Ignore FSR photons (Three options: Ys, Yg and N. Default: N)
+{
+  Yg
+}
+
+% Common name of output files (Default: Name of the card file)
+{
+  /home/belle2/ssana/signal_mc/topo_report/my_signal
+}
